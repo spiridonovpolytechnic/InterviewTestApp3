@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              tools:context=".MainActivity"
+              tools:showIn="@layout/activity_main"
+    >
+
+    <!-- REPLACE WITH TEXT VIEW FOR TEST -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="FRAGMENTS APPEAR HERE"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/colorControlMenu"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_start"
+            android:text="start"
+            style="@style/button_style"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_stop"
+            android:text="stop"
+            style="@style/button_style"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_reset"
+            android:text="reset"
+            style="@style/button_style"/>
+    </LinearLayout>
+
+</LinearLayout>
