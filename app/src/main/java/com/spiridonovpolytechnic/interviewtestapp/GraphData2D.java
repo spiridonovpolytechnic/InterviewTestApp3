@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
     /*
     "IMPLEMENTS PARCELABLE"
-    REMOVE FOR TEST
+    REMOVED FOR TEST
      */
 public class GraphData2D
 {
