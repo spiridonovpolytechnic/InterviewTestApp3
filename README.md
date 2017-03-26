@@ -35,10 +35,10 @@ Prior to starting the test you should be familiar with the following topics.
 8) Modify the GraphFragment code so that it can be updated with data from an external thread.
 9) Modify the GraphFragment (and MainActivity maybe?) so that upon creation of the GraphFragment, the graph displays the current graph data.
 10) Modify the GraphHandler to handle communication from the main thread.
-    Hint: handle the start, stop, reset, and request data messages
-    Hint: handler may need to send messages to itself
+    Hint: handle the start, stop, reset, and request data messages.
+    Hint: handler may need to send messages to itself.
 11) Modify the GraphHandler to send graph data updates to main thread.
-    Hint: may need a modified constructor
+    Hint: may need a modified constructor.
 
 
 
